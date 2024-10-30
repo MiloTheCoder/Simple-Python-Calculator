@@ -1,0 +1,17 @@
+while True:
+
+    num1 = int(input("First number: "))
+    num2 = int(input("Second number: "))
+    plus = int(input("1. Plus 2. Minus 3. Multiplication 4. Division "))
+
+    if plus == 1:
+        print(num1 + num2)
+
+    if plus == 2:
+        print(num1 - num2)
+
+    if plus == 3:
+        print(num1 * num2)
+
+    if plus == 4:
+        print(num1 / num2)
